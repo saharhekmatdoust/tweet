@@ -9,7 +9,7 @@ import openai
 import streamlit as st
 
 # Assign credentials from environment variable or streamlit secrets dict
-openai.api_key = os.getenv("OPENAI_API_KEY") or st.secrets["OPENAI_API_KEY"]
+openai.api_key = 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
 
 # Suppress openai request/response logging
 # Handle by manually changing the respective APIRequestor methods in the openai package
